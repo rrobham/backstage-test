@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mdp-821-api-4
+  description: API 4 for test mdp-821 in another folder but same repo as last registered
+  labels:
+    access: public
+  tags:
+    - recommended
+spec:
+  type: platform domain
+  lifecycle: production
+  owner: devportal-tester
+  definition: |
+    {
+      "openapi": "3.1.0"
+      "info": {
+        "version": "2022-01-01"
+        "title": "mdp-821-api-4"
+      }
+    }
