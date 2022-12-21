@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mdp-821-api-7
+  description: API 1 for test mdp-821
+  labels:
+    access: private
+  tags:
+    - recommended
+spec:
+  type: business domain
+  lifecycle: development
+  owner: devportal-tester
+  definition: |
+    {
+      "openapi": "3.1.0"
+      "info": {
+        "version": "2022-01-01"
+        "title": "mdp-821-api-7"
+      }
+    }
