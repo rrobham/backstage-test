@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-test
+spec:
+  targets:
+    - ./folder3/mdp-821-api-97.yaml
