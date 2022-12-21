@@ -4,7 +4,7 @@ metadata:
   name: mdp-821-api-1
   description: API 1 for test mdp-821
   labels:
-    access: internal
+    access: private
   tags:
     - recommended
 spec:
