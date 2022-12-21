@@ -8,3 +8,4 @@ spec:
     - ./folder/mdp-821-api-2.yaml
     - ./folder/mdp-821-api-3.yaml
     - ./folder2/mdp-821-api-4.yaml
+    - ./folder2/mdp-821-api-5.yaml
