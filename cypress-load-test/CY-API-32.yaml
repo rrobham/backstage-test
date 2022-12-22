@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: CY-API-32
+  description: Testing API Registration form
+  labels:
+    access: internal
+  tags:
+    - newtag
+spec:
+  type: platform domain
+  lifecycle: development
+  owner: MDP
+  definition: |
+    {
+      "openapi": "3.1.0"
+      "info": {
+        "version": "2022-01-01"
+        "title": "CY-API-32"
+      }
+    }
