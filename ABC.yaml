@@ -2,13 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: ABC
-  description: Descriptionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+  description: Descriptionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn2
   labels:
     access: private
   tags:
     - recommended
 spec:
-  type: business domain
+  type: platform domain
   lifecycle: design
   owner: cy-tester
   definition:
