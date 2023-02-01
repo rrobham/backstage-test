@@ -8,7 +8,7 @@ metadata:
   tags:
     - recommended
 spec:
-  type: platform domain
+  type: business domain
   lifecycle: development
   owner: cy-tester
   definition:
