@@ -6,3 +6,4 @@ spec:
   targets:
     - ./folder3/mdp-821-api-97.yaml
     - ./folder3/mdp-821-api-96.yaml
+    - ./ABC.yaml
