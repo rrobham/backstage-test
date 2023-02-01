@@ -4,12 +4,12 @@ metadata:
   name: ABC
   description: Descriptionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
   labels:
-    access: private
+    access: internal
   tags:
     - recommended
 spec:
-  type: business domain
-  lifecycle: design
+  type: platform domain
+  lifecycle: development
   owner: cy-tester
   definition:
     $text: https://github.com/Paylocity/Paylocity.DeveloperPortal.Specifications/blob/main/local/default/abc/latest.json
