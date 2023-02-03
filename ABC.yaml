@@ -1,15 +1,15 @@
-gapiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: ABC
-  description: Descriptionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn2
+  description: Descriptionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
   labels:
-    access: internal
+    access: private
   tags:
     - recommended
 spec:
-  type: platform domain
-  lifecycle: design
+  type: business domain
+  lifecycle: development
   owner: cy-tester
   definition:
     $text: https://github.com/Paylocity/Paylocity.DeveloperPortal.Specifications/blob/main/local/default/abc/latest.json
